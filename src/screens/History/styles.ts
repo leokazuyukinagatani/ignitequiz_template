@@ -8,6 +8,7 @@ export const styles = StyleSheet.create({
     backgroundColor: THEME.COLORS.GREY_800,
   },
   history: {
+    flexGrow: 1,
     padding: 32,
   },
   swipeableRemove: {
@@ -23,6 +24,6 @@ export const styles = StyleSheet.create({
     backgroundColor: THEME.COLORS.DANGER_LIGHT,
     borderRadius: 6,
     height: 90,
-    marginBottom: 12
+    marginBottom: 12,
   },
 });
